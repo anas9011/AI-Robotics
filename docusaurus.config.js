@@ -9,7 +9,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://vercel.com/anas-shakeels-projects/ai-robotics-gwtt',
+  url: 'https://ai-robotics-gwtt.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/ros2-humanoid-robotics-book/',
