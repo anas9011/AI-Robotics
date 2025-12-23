@@ -1,0 +1,10 @@
+# Minimal dependencies for VLA Integration Service (without ROS2 dependencies)
+openai>=1.0.0
+fastapi>=0.100.0
+uvicorn>=0.20.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-multipart>=0.0.6
+torch>=1.9.0
+transformers>=4.20.0
+websockets>=10.0

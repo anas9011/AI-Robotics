@@ -1,55 +1,49 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+# AI-Driven Book + RAG Chatbot on Physical AI & Humanoid Robotics Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Technical Accuracy First
+All technical claims, code examples, and architectural decisions must be verified from official documentation and peer-reviewed robotics/AI sources. No unverified technical statements allowed in the book or chatbot knowledge base.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Source Verification Requirement
+Every factual claim must be source-verified from official documentation or academic robotics/AI papers. Minimum 20 references required across the project. All sources must be cited appropriately.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Reproducibility Standard (NON-NEGOTIABLE)
+All code examples, setup steps, and robotics workflows must be reproducible. Code must run on specified ROS 2 Humble and NVIDIA Isaac Sim versions. Zero broken code allowed in deliverables.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Multi-Modal Documentation
+Both book and chatbot must use the same knowledge base. Content must be designed for both static documentation (book) and interactive retrieval (chatbot). Consistent terminology and concepts required.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Hallucination Prevention
+RAG chatbot must answer only from verified book content and user-provided text. Zero hallucinations allowed. Retrieval pipeline must be transparent and testable with ≥80% accuracy on test questions.
 
-### [PRINCIPLE_6_NAME]
+### Engineering-Level Clarity
+All documentation must be written at FK grade 11–13 level. Technical concepts must be explained clearly with runnable examples and accurate architecture diagrams reflecting actual implementation.
 
+## Project Standards and Constraints
 
-[PRINCIPLE__DESCRIPTION]
+Technology Stack: Spec-Kit Plus, Claude Code, Docusaurus, GitHub Pages, ROS 2, Gazebo, Unity, NVIDIA Isaac, FastAPI, Neon, Qdrant, OpenAI Agents/ChatKit. All components must integrate seamlessly and be version-compatible.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+Deployment Requirements: Book built with Docusaurus deployed to GitHub Pages. Chatbot stack: FastAPI + Neon Postgres + Qdrant + OpenAI Agents/ChatKit. Both must deploy cleanly without errors.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+Content Scope: Book covers ROS 2 humanoid control, Gazebo/Unity digital twins, NVIDIA Isaac perception/navigation, VLA (LLM → ROS actions), and capstone autonomous humanoid robot. Approximately 25k–35k words total.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+Quality Assurance: Architecture diagrams must reflect actual pipelines. No unverified technical claims. All robotics workflows must be reproducible. Code examples must be tested and functional.
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Development Workflow
+
+Specification-Driven Development: All development follows Spec-Kit Plus methodology. Features must be specified in detail before implementation begins. Changes to specification require explicit approval before proceeding.
+
+Testing Requirements: All code changes must include appropriate tests. Book content must include runnable examples that are verified to work. Chatbot retrieval accuracy must be validated against test question sets.
+
+Review Process: All PRs must verify compliance with technical accuracy requirements. Complex implementations must be justified with clear reasoning. Code reviews must validate both correctness and adherence to architectural decisions.
+
+Quality Gates: All deliverables must pass technical accuracy verification, reproducibility testing, and hallucination prevention checks. No unverified technical claims allowed in final output.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution governs all aspects of the AI-Driven Book + RAG Chatbot project. All development practices, code changes, and documentation updates must comply with these principles. Any deviation requires explicit amendment to this constitution.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+Amendments to this constitution must document the reasoning, obtain approval from project stakeholders, and include a migration plan for existing code and documentation. All team members must acknowledge and follow updated principles after amendments.
+
+**Version**: 1.0.0 | **Ratified**: 2025-12-09 | **Last Amended**: 2025-12-09
