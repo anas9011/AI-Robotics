@@ -12,7 +12,7 @@ const config = {
   url: 'https://ai-robotics-gwtt.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ros2-humanoid-robotics-book/',
+  baseUrl: 'https://vercel.com/anas-shakeels-projects/ai-robotics-gwtt',
 
   // GitHub pages deployment config.
   organizationName: 'your-organization', // Usually your GitHub org/user name.
